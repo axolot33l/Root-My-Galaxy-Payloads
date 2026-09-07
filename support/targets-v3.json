@@ -183,21 +183,6 @@
       }
     },
     {
-      "payloadId": "a55x-A556EXXUEDZE4",
-      "displayName": "Galaxy A55 5G | Kernel 6.1.157",
-      "models": ["SM-A556E"],
-      "kernelVersions": ["6.1.157"],
-      "requiresFreshP0Session": true,
-      "exploit": {
-        "url": "https://raw.githubusercontent.com/axolot33l/Root-My-Galaxy-Payloads/main/artifacts/a55x-A556EXXUEDZE4/cve-2026-43499-app.so",
-        "size": 104128
-      },
-      "kernelsu": {
-        "url": "https://raw.githubusercontent.com/axolot33l/Root-My-Galaxy-Payloads/main/kernelsu/ksud-A556EXXUEDZE4-kdp",
-        "size": 4780056
-      }
-    },
-    {
       "payloadId": "a55x-A556BXXSBCYK2",
       "displayName": "Galaxy A55 5G | Kernel 6.1.138",
       "models": ["SM-A556B"],
