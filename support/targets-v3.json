@@ -191,6 +191,10 @@
       "exploit": {
         "url": "https://raw.githubusercontent.com/axolot33l/Root-My-Galaxy-Payloads/main/artifacts/a55x-A556BXXSBCYK2/cve-2026-43499-app.so",
         "size": 104128
+      },
+      "kernelsu": {
+        "url": "https://raw.githubusercontent.com/axolot33l/Root-My-Galaxy-Payloads/main/kernelsu/ksud-A556BXXSBCYK2-kdp",
+        "size": 4784816
       }
     },
     {
