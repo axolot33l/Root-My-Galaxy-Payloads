@@ -24,8 +24,8 @@ between KMIs.
 | `ksud-e1s-S921NKSSFDZF3-kdp` | Same exact S921N build | `android14-6.1` | Device-tested late-load binary embedding the S921N no-patch-text module |
 | `android14-6.1_kernelsu-e1s-S921BXXSFDZE1-kdp.ko` | `SM-S921B`, `S921BXXSFDZE1` | `android14-6.1` | Exact E1S no-patch-text module with target `vermagic`, audited for manual relocation |
 | `ksud-e1s-S921BXXSFDZE1-kdp` | Same exact E1S build | `android14-6.1` | Device-tested late-load binary embedding the E1S no-patch-text module |
-| `android14-6.1_kernelsu-A556BXXSBCYK2-kdp.ko` | `SM-A556B`, `A556BXXSBCYK2` | `android14-6.1` | Exact A556B no-patch-text module; vermagic `6.1.138-android14-11`; built from v3.2.5+samsung-kdp-rkp-defex patch; hardware load untested |
-| `ksud-A556BXXSBCYK2-kdp` | Same exact A556B build | `android14-6.1` | Late-load binary embedding the A556B module; hardware validation pending |
+| `android14-6.1_kernelsu-A556BXXSBCYK2-kdp.ko` | `SM-A556B`, `A556BXXSBCYK2` | `android14-6.1` | Exact A556B no-patch-text module; vermagic `6.1.138-android14-11`; built from v3.2.5+samsung-kdp-rkp-defex patch; device-tested |
+| `ksud-A556BXXSBCYK2-kdp` | Same exact A556B build | `android14-6.1` | Device-tested late-load binary embedding the A556B no-patch-text module |
 | `android14-6.1_kernelsu-samsung-kdp.ko` | `SM-S721N` `S721NKSSCDZF3`; `SM-S921B` `S921BXXSFDZF2` | `android14-6.1` | Standalone Samsung KDP/RKP/DEFEX module with target `vermagic` |
 | `ksud-samsung-android14-6.1-kdp` | Same verified 6.1 targets | `android14-6.1` | Late-load binary embedding the 6.1 module |
 | `android12-5.10_kernelsu-samsung-kdp.ko` | `SM-A155N` `A155NKSS6BYH1` | `android12-5.10` | Standalone Samsung KDP/RKP/DEFEX module built against the exact A15 kernel |
@@ -76,7 +76,9 @@ passes the recovered-target symbol audit, and was loaded on hardware with
 KernelSU Manager reporting `Working <LKM> [Jailbreak mode]` and version
 `32525-2`. The A536E GZG3 5.10 pair was also loaded from the normal Root My
 Galaxy app flow; KernelSU Manager reported `Working <LKM> [Jailbreak mode]`
-and version `32525-2`. The older A15 5.10 pair remains device-untested. The exact F9360ZCSAIZF1 no-LTO module above is device-tested (full-chain root and KernelSU Manager recognition on hardware, 2026-08-12 and 2026-09-01).
+and version `32525-2`. The older A15 5.10 pair remains device-untested. The A556B pair is exact-release,
+device-tested: late-load completes successfully on SM-A556B with Kernel 6.1.138.
+The exact F9360ZCSAIZF1 no-LTO module above is device-tested (full-chain root and KernelSU Manager recognition on hardware, 2026-08-12 and 2026-09-01).
 
 ## Why the stock module crashes on Samsung
 
