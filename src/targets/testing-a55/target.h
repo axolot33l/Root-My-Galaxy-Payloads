@@ -3,7 +3,7 @@
 
 #if defined(APP_PAYLOAD) && APP_PAYLOAD
 #define BUILD_VARIANT_LABEL \
-  "a55x-A556BXXSBCYK2-app-production-slide8-fops8"
+  "a55x-A556BXXSBCYK2-testing-p0fix-slide8-fops8"
 #define APP_DEFAULT_FAST_KSNITCH 1
 #define APP_PHYS_P0_ORACLE 1
 #define APP_REQUIRE_FRESH_P0_SESSION 1

@@ -198,6 +198,21 @@
       }
     },
     {
+      "payloadId": "testing-a55",
+      "displayName": "Galaxy A55 5G | TESTING p0fix",
+      "models": ["SM-A556B"],
+      "kernelVersions": ["6.1.138"],
+      "requiresFreshP0Session": true,
+      "exploit": {
+        "url": "https://raw.githubusercontent.com/axolot33l/Root-My-Galaxy-Payloads/main/artifacts/testing-a55/cve-2026-43499-app.so",
+        "size": 104128
+      },
+      "kernelsu": {
+        "url": "https://raw.githubusercontent.com/axolot33l/Root-My-Galaxy-Payloads/main/kernelsu/ksud-A556BXXSBCYK2-kdp",
+        "size": 4785000
+      }
+    },
+    {
       "payloadId": "essi-A566EXXSCCZG6",
       "displayName": "Galaxy A56 5G | Kernel 6.6.102",
       "models": ["SM-A5660", "SM-A566B", "SM-A566E", "SM-A566S", "SM-A566U1", "SM-A566W"],
